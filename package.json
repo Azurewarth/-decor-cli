@@ -1,0 +1,21 @@
+{
+  "name": "@decor/cli",
+  "version": "1.0.0",
+  "description": "init koa2ts and vue2ts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "decor-ts": "./bin/decor.ts.js"
+  },
+  "author": "azure1989",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "commander": "^2.19.0",
+    "fs-extra": "^7.0.1",
+    "nodegit": "^0.23.0",
+    "shelljs": "^0.8.2"
+  }
+}
